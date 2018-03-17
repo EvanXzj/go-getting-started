@@ -12,8 +12,9 @@ import (
 
 const c = "C"
 
-var v int = 5
+var v = 5
 
+// T ...
 type T struct{}
 
 func main() {
@@ -22,12 +23,12 @@ func main() {
 	fmt.Println()
 }
 
-// T ...
+// Method1 ...
 func (t T) Method1() {
 	// code here ...
 }
 
-// Func ...
+// Func1 ...
 func Func1() {
 	// code here ...
 }
